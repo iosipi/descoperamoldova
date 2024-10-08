@@ -1,17 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './components/header/Header';
-import './App.css';
 import ParcLists from './components/ParcLists/ParcLists';
-import { useState } from 'react';
+import  { useState } from 'react';
+
 
 function App() {
-  const [region, setRegion] = useState('');
+  const [region, setRegion] = useState<string>('');
+
   return (
     <div className="App">
-      <Header/>
+      <Header onRegionChange={(region) => setRegion(region)} />
       <h1>Descopera Moldova Acum</h1>
-      <ParcLists region={region}/>
+      <ParcLists region={region} />
     </div>
   );
 }
