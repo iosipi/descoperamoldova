@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: '/parc',
+    path: '/parc/:parcId',
     element: <ParcComponent/>,
   }
 ]);
