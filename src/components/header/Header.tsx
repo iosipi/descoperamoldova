@@ -10,10 +10,10 @@ function Header(props: { onRegionChange: (region: string) => void }) {
     <AppBar position='static' sx={{ backgroundColor: '#adc58c'}}>
       <List sx={{ display: 'flex' }}>
         <ListItem>
-          <img src={logo} alt="Logo" style={{ width: '150px', height: '150px' }} />
+          <img src={logo} alt="Logo" style={{ width: '50px', height: '50px' }} />
         </ListItem>
         <ListItem>
-          <Button sx={{ color: 'red',}} onClick={() => props.onRegionChange('centru')}>Centru</Button>
+          <Button onClick={() => props.onRegionChange('centru')}>Centru</Button>
         </ListItem>
         <ListItem>
           <Button onClick={() => props.onRegionChange('nord')}>Nord</Button>

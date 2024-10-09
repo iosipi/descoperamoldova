@@ -1,13 +1,11 @@
+import { list } from "../../data/parcList";
+
 type ParcListsProps = {
     region: string;
   };
   
   function ParcLists(props: ParcListsProps) {
-    const list = [
-      { id: 1, title: 'Parc1', region: 'sud' },
-      { id: 2, title: 'Parc2', region: 'nord' },
-      { id: 3, title: 'Parc3', region: 'centru' }
-    ];
+    
   
     let finalList = list;
   
