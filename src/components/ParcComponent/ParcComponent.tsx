@@ -21,8 +21,11 @@ if (!result) {
  <div>
    <h1>{result.title}</h1>
    <p>{result.description}</p>
+   <img src={result.imgSrc} />
+   {result.imgGallery.map(source => <img src={source}/>)}
  </div>
 );
 }
+
 
 export default ParcComponent;
