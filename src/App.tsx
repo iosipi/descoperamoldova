@@ -8,9 +8,9 @@ function App() {
   const [region, setRegion] = useState<string>('');
 
   return (
-    <div className="App">
-      <Header onRegionChange={(region) => setRegion(region)} />
-      <h1>Descopera Moldova Acum</h1>
+    <div className="App" style={{backgroundColor: '#E7F0DC'}}>
+      <Header activeRegion={region} onRegionChange={(region) => setRegion(region)} />
+      <h1 style={{ textAlign: 'center' }}>Descopera Moldova Acum</h1>
       <ParcLists region={region} />
     </div>
 

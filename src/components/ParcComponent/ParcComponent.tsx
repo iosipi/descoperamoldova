@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { list } from "../../data/parcList";
+import { Link } from "react-router-dom";
 import ParcLists from "../ParcLists/ParcLists";
 
 function ParcComponent () {
@@ -19,10 +20,11 @@ if (!result) {
   }
  return (
  <div>
+  <Link to = "/" style={{ color: 'red', textDecoration: 'none', fontSize: '18px', padding: '8px 16px',  }}> Acasa</Link>
    <h1>{result.title}</h1>
    <p>{result.description}</p>
    <img src={result.imgSrc} />
-   <h1>Galerie:</h1> {result.imgGallery.map(source => <img src={source}/>)} 
+   <h2>Galerie:</h2> <div style={{display: "flex", gap: "20px"}}>{result.imgGallery.map(source => <img src={source} style={{width: "100px"}}/>)} </div>
  </div>
 );
 }

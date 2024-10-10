@@ -4,21 +4,60 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import { Button } from '@mui/material';
 
-function Header(props: { onRegionChange: (region: string) => void }) {
+function Header(props: {activeRegion: string, onRegionChange: (region: string) => void }) {
   return (
-    <AppBar position='static' sx={{ backgroundColor: '#41B06E'}}>
+    <AppBar position='static' sx={{ backgroundColor: '#3e6913' }}>
       <List sx={{ display: 'flex' }}>
         <ListItem>
           <img src="/imagini/logo.png" alt="Logo" style={{ width: '50px', height: '50px' }} />
         </ListItem>
-        <ListItem>
-          <Button onClick={() => props.onRegionChange('centru')}>Centru</Button>
+        <ListItem sx={{display: 'flex' }}>
+          <Button  variant={props.activeRegion === '' ? 'contained' : 'text'}
+            onClick={() => props.onRegionChange('')}
+            sx={{
+              color: '#080808',
+              '&:hover': {
+                color: '#C5EBAA', 
+              },
+            }}>Toate</Button>
+
+          <Button variant={props.activeRegion === 'centru' ? 'contained' : 'text'}
+            onClick={() => props.onRegionChange('centru')}
+            sx={{
+              color: '#080808',
+              '&:hover': {
+                color: '#C5EBAA', 
+              },
+            }}
+          >
+            Centru
+          </Button>
         </ListItem>
         <ListItem>
-          <Button onClick={() => props.onRegionChange('nord')}>Nord</Button>
+          <Button variant={props.activeRegion === 'nord' ? 'contained' : 'text'}
+            onClick={() => props.onRegionChange('nord')}
+            sx={{
+              color: '#080808',
+              '&:hover': {
+                color: '#C5EBAA', 
+              },
+            }}
+          >
+            Nord
+          </Button>
         </ListItem>
         <ListItem>
-          <Button onClick={() => props.onRegionChange('sud')}>Sud</Button>
+          <Button variant={props.activeRegion === 'sud' ? 'contained' : 'text'}
+            onClick={() => props.onRegionChange('sud')}
+            sx={{
+              color: '#080808',
+              '&:hover': {
+                color: '#C5EBAA', 
+              },
+            }}
+          >
+            Sud
+          </Button>
         </ListItem>
       </List>
     </AppBar>
