@@ -4,7 +4,7 @@ import ParcLists from './components/ParcLists/ParcLists';
 import  { useState } from 'react';
 
 
-function App() {
+function App() { 
   const [region, setRegion] = useState<string>('');
 
   return (
