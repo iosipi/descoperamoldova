@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 
 function Header(props: { onRegionChange: (region: string) => void }) {
   return (
-    <AppBar position='static' sx={{ backgroundColor: '#adc58c'}}>
+    <AppBar position='static' sx={{ backgroundColor: '#41B06E'}}>
       <List sx={{ display: 'flex' }}>
         <ListItem>
           <img src="/imagini/logo.png" alt="Logo" style={{ width: '50px', height: '50px' }} />

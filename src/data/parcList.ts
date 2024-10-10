@@ -1,5 +1,10 @@
 export const list = [
-    { id: 1, title: 'Parc1', region: 'sud', description: 'Test1', imgSrc: '/imagini/logo.png', imgGallery: ['/imagini/logo.png', '/imagini/logo.png']},
-    { id: 2, title: 'Parc2', region: 'nord', description: 'Test2' },
-    { id: 3, title: 'Parc3', region: 'centru', description: 'Test3' }
+    { id: 1, title: 'Valea Morilor', region: 'centru', description: 'scrie descrierea', imgSrc: '/imagini/centru/ValeaMorilor.png', imgGallery: ['/imagini/centru/VM1.PNG', '/imagini/centru/VM2.png', '/imagini/centru/VM3.png', '/imagini/centru/VM4.png', '/imagini/centru/VM5.png', '/imagini/centru/VM6.png', '/imagini/centru/VM7.png']},
+    { id: 2, title: 'La Izvor', region: 'centru', description: 'Test2', imgSrc: '/imagini/centru/LaIzvor.png', imgGallery: ['/imagini/centru/LI1.png', '/imagini/centru/LI2.png', '/imagini/centru/LI3.png', '/imagini/centru/LI4.png', '/imagini/centru/LI5.png']},
+    { id: 3, title: 'Plaiul Fagului', region: 'centru', description: 'Test3', imgSrc: '/imagini/centru/PlaiulFagului.png', imgGallery: ['/imagini/centru/PF1.png', '/imagini/centru/PF2.png', '/imagini/centru/PF.3.png', '/imagini/centru/PF.4.png', '/imagini/centru/PF.5.png']},
+    { id: 4, title: 'La Castel', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/LaCastel.png', imgGallery: ['/imagini/nord/LC1.png', '/imagini/nord/LC2.png', '/imagini/nord/LC3.png', '/imagini/nord/LC4.png', '/imagini/nord/LC5.png']},
+    { id: 5, title: 'Taul', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/Taul.png', imgGallery: ['/imagini/nord/T1.png', '/imagini/nord/T2.png', '/imagini/nord/T3.png', '/imagini/nord/T4.png', '/imagini/nord/T5.png']},
+    { id: 6, title: 'Suta de Movile', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/SutaDeMovile.png', imgGallery: ['/imagini/nord/SM1.png', '/imagini/nord/SM2.png', '/imagini/nord/SM3.png', '/imagini/nord/SM4.png', '/imagini/nord/SM5.png']},
+    { id: 7, title: 'Colinele de Aur', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/ColineledeAur.png', imgGallery: ['/imagini/nord/CA1.png', '/imagini/nord/CA2.png', '/imagini/nord/CA3.png']},
+    { id: 8, title: 'Prutul de Jos', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/PrutuldeJos.png', imgGallery: ['/imagini/nord/Pdj1.png', '/imagini/nord/Pdj2.png', '/imagini/nord/Pdj3.png', '/imagini/nord/Pdj4.png', '/imagini/nord/Pdj5.png', '/imagini/nord/Pdj6.png']}
   ];

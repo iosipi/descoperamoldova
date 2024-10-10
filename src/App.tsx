@@ -13,6 +13,8 @@ function App() {
       <h1>Descopera Moldova Acum</h1>
       <ParcLists region={region} />
     </div>
+
+    
   );
 }
 

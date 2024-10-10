@@ -22,7 +22,7 @@ if (!result) {
    <h1>{result.title}</h1>
    <p>{result.description}</p>
    <img src={result.imgSrc} />
-   {result.imgGallery.map(source => <img src={source}/>)}
+   <h1>Galerie:</h1> {result.imgGallery.map(source => <img src={source}/>)} 
  </div>
 );
 }
