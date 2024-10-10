@@ -5,6 +5,6 @@ export const list = [
     { id: 4, title: 'La Castel', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/LaCastel.png', imgGallery: ['/imagini/nord/LC1.png', '/imagini/nord/LC2.png', '/imagini/nord/LC3.png', '/imagini/nord/LC4.png', '/imagini/nord/LC5.png']},
     { id: 5, title: 'Taul', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/Taul.png', imgGallery: ['/imagini/nord/T1.png', '/imagini/nord/T2.png', '/imagini/nord/T3.png', '/imagini/nord/T4.png', '/imagini/nord/T5.png']},
     { id: 6, title: 'Suta de Movile', region: 'nord', description: 'Test3', imgSrc: '/imagini/nord/SutaDeMovile.png', imgGallery: ['/imagini/nord/SM1.png', '/imagini/nord/SM2.png', '/imagini/nord/SM3.png', '/imagini/nord/SM4.png', '/imagini/nord/SM5.png']},
-    { id: 7, title: 'Colinele de Aur', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/ColineledeAur.png', imgGallery: ['/imagini/nord/CA1.png', '/imagini/nord/CA2.png', '/imagini/nord/CA3.png']},
-    { id: 8, title: 'Prutul de Jos', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/PrutuldeJos.png', imgGallery: ['/imagini/nord/Pdj1.png', '/imagini/nord/Pdj2.png', '/imagini/nord/Pdj3.png', '/imagini/nord/Pdj4.png', '/imagini/nord/Pdj5.png', '/imagini/nord/Pdj6.png']}
+    { id: 7, title: 'Colinele de Aur', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/ColineledeAur.png', imgGallery: ['/imagini/sud/CA1.png', '/imagini/sud/CA2.png', '/imagini/sud/CA3.png']},
+    { id: 8, title: 'Prutul de Jos', region: 'sud', description: 'Test3', imgSrc: '/imagini/sud/PrutuldeJos.png', imgGallery: ['/imagini/sud/Pdj1.png', '/imagini/sud/Pdj2.png', '/imagini/sud/Pdj3.png', '/imagini/sud/Pdj4.png', '/imagini/sud/Pdj5.png', '/imagini/sud/Pdj6.png']}
   ];
